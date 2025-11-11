@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Mail, Phone, MapPin, ExternalLink, Download, ChevronRight, Code, Palette, Server, Smartphone } from 'lucide-react';
 import { useLanguage } from './hooks/useLanguage';
+import photo from './assets/my-photo.jpg';
 
 const App = () => {
   const { lang, setLang, t } = useLanguage();
@@ -55,7 +56,11 @@ const App = () => {
             <div className="relative">
               <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-full p-1 w-80 h-80 mx-auto">
                 <div className="bg-white rounded-full w-full h-full flex items-center justify-center">
-                  <div className="bg-gray-200 border-2 border-dashed rounded-xl w-64 h-64" />
+                  <img
+                    src={photo}
+                    alt="Pavel Meshkov"
+                    className="rounded-xl w-64 h-64 object-cover"
+                  />
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 bg-white rounded-lg shadow-lg p-4">
