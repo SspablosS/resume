@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "title": "Фронтенд-разработчик",
+    "subtitle": "Я начинающий разработчик"
+  },
+  "nav": {
+    "about": "Обо мне",
+    "skills": "Навыки",
+    "education": "Образование"
+  },
+  "buttons": {
+    "contact": "Связаться",
+    "projects": "Мои проекты",
+    "resume": "Резюме"
+  },
+  "about": {
+    "title": "Обо мне",
+    "text1": "Увлечённый фронтенд-разработчик с 2 годами некоммерческого опыта в создании современных веб-приложений. Специализируюсь на React, TypeScript и современных CSS-фреймворках",
+    "text2": "Постоянно учусь и слежу за новейшими веб-технологиями и лучшими практиками",
+    "email": "pavelmeshkov2004@gmail.com",
+    "phone": "+7 (926) 400-11-89",
+    "location": "Химки, Россия",
+    "github": "github.com/SspablosS"
+  },
+  "whatIDo": "Чем я занимаюсь",
+  "whatIDoItems": {
+    "frontend": {
+      "title": "Фронтенд-разработка",
+      "description": "Создание адаптивных и интерактивных пользовательских интерфейсов"
+    },
+    "uiux": {
+      "title": "UI/UX-дизайн",
+      "description": "Создание интуитивно понятных и красивых пользовательских интерфейсов"
+    },
+    "api": {
+      "title": "Интеграция API",
+      "description": "Подключение фронтенда к бэкенд-сервисам"
+    },
+    "mobile": {
+      "title": "Mobile First",
+      "description": "Обеспечение оптимального опыта на всех устройствах"
+    }
+  },
+  "workExperience": "Опыт работы",
+  "technicalSkills": "Технические навыки",
+  "skills": {
+    "languages": "Языки",
+    "frameworks": "Фреймворки и библиотеки",
+    "tools": "Инструменты и технологии",
+    "jsTs": "JavaScript/TypeScript",
+    "htmlCss": "HTML5/CSS3",
+    "python": "Python",
+    "react": "React & React Native",
+    "nextjs": "Next.js",
+    "vue": "Vue.js",
+    "tailwind": "Tailwind CSS",
+    "git": "Git & GitHub",
+    "bundlers": "Webpack/Vite",
+    "figma": "Figma",
+    "docker": "Docker"
+  },
+  "education": "Образование",
+  "educationItems": {
+    "hexletDegree": {
+      "title": "Fullstack-разработчик",
+      "institution": "Hexlet College • Москва",
+      "years": "2023 – 2026"
+    },
+    "hexletCert": {
+      "title": "Сертификат Fullstack-разработчика",
+      "institution": "Онлайн-платформа Hexlet • Удалённо",
+      "description": "Полный курс по современному JavaScript, React и продвинутым CSS-техникам. Включает практические проекты и разбор реальных кейсов.",
+      "year": "2026"
+    }
+  },
+  "featuredProjects": "Избранные проекты",
+  "contact": {
+    "title": "Давайте работать вместе",
+    "subtitle": "Я всегда открыт к новым возможностям и интересным проектам. Свяжитесь со мной, если хотите сотрудничать!",
+    "github": "Профиль на GitHub"
+  },
+  "footer": "© 2025 SspablosS. Все права защищены. Сделано на React и Tailwind CSS."
+}

@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "Frontend Developer",
+    "subtitle": "I'm a junior developer"
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "education": "Education"
+  },
+  "buttons": {
+    "contact": "Get in Touch",
+    "resume": "Resume"
+  },
+  "about": {
+    "title": "About Me",
+    "text1": "Passionate frontend developer with 2 years of non-commercial experience building modern web applications. I specialize in React, TypeScript, and modern CSS frameworks.",
+    "text2": "I'm constantly learning and keeping up with the latest web technologies and best practices.",
+    "email": "pavelmeshkov2004@gmail.com",
+    "phone": "+7 (926) 400-11-89",
+    "location": "Khimki, Russia",
+    "github": "github.com/SspablosS"
+  },
+  "whatIDo": "What I Do",
+  "whatIDoItems": {
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Building responsive and interactive user interfaces"
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "Creating intuitive and beautiful user experiences"
+    },
+    "api": {
+      "title": "API Integration",
+      "description": "Connecting frontend with backend services"
+    },
+    "mobile": {
+      "title": "Mobile First",
+      "description": "Ensuring optimal experience on all devices"
+    }
+  },
+  "workExperience": "Work Experience",
+  "technicalSkills": "Technical Skills",
+  "skills": {
+    "languages": "Languages",
+    "frameworks": "Frameworks & Libraries",
+    "tools": "Tools & Technologies",
+    "jsTs": "JavaScript/TypeScript",
+    "htmlCss": "HTML5/CSS3",
+    "python": "Python",
+    "react": "React & React Native",
+    "nextjs": "Next.js",
+    "vue": "Vue.js",
+    "tailwind": "Tailwind CSS",
+    "git": "Git & GitHub",
+    "bundlers": "Webpack/Vite",
+    "figma": "Figma",
+    "docker": "Docker"
+  },
+  "education": "Education",
+  "educationItems": {
+    "hexletDegree": {
+      "title": "Fullstack Developer",
+      "institution": "Hexlet College • Moscow",
+      "years": "2023 – 2026"
+    },
+    "hexletCert": {
+      "title": "Fullstack Development Certification",
+      "institution": "Online Platform Hexlet • Remote",
+      "description": "Comprehensive course covering modern JavaScript, React, and advanced CSS techniques. Includes hands-on projects and real-world case studies.",
+      "year": "2026"
+    }
+  },
+  "featuredProjects": "Featured Projects",
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "I'm always open to new opportunities and exciting projects. Feel free to reach out if you'd like to collaborate!",
+    "github": "GitHub Profile"
+  },
+  "footer": "© 2025 SspablosS. All rights reserved. Built with React and Tailwind CSS."
+}
