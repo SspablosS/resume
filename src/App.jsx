@@ -38,7 +38,7 @@ const App = () => {
               {/* Resume button */}
               <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2">
                 <Download size={16} />
-                {t('buttons.resume')}
+                <a href="/resume/public/Pavel_Meshkov_Resume.pdf" download>{t('buttons.resume')}</a>
               </button>
             </div>
           </div>
