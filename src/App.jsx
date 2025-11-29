@@ -5,6 +5,7 @@ import photo from './assets/my-photo.jpg';
 
 const App = () => {
   const { lang, setLang, t } = useLanguage();
+  const resumeUrl = `${import.meta.env.BASE_URL}Pavel_Meshkov_Resume.pdf`;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
@@ -37,8 +38,14 @@ const App = () => {
 
               {/* Resume button */}
               <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2">
-                <Download size={16} />
-                <a href="/resume/public/Pavel_Meshkov_Resume.pdf" download>{t('buttons.resume')}</a>
+                <a
+                  href={resumeUrl}
+                  download="Pavel_Meshkov_Resume.pdf"
+                  className="flex items-center gap-2 text-white no-underline"
+                >
+                  <Download size={16} />
+                  {t('buttons.resume')}
+                </a>
               </button>
             </div>
           </div>
@@ -231,6 +238,7 @@ const App = () => {
                 <h3 className="text-xl font-semibold text-gray-900">{t('educationItems.hexletDegree.title')}</h3>
                 <p className="text-blue-600 font-medium">{t('educationItems.hexletDegree.institution')}</p>
               </div>
+              <p className="text-gray-600 mb-4">{t('educationItems.hexletDegree.description')}</p>
               <div className="text-gray-500">{t('educationItems.hexletDegree.years')}</div>
             </div>
 
