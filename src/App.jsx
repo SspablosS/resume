@@ -15,18 +15,27 @@ const App = () => {
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Portfolio
             </div>
+
+            {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
               <a href="#about" className="text-gray-600 hover:text-blue-600 transition-colors">{t('nav.about')}</a>
               <a href="#skills" className="text-gray-600 hover:text-blue-600 transition-colors">{t('nav.skills')}</a>
               <a href="#education" className="text-gray-600 hover:text-blue-600 transition-colors">{t('nav.education')}</a>
+              <a href="#projects" className="text-gray-600 hover:text-blue-600 transition-colors">{t('nav.projects')}</a>
             </nav>
+
+            {/* Right-side actions: Language toggle + Resume button */}
             <div className="flex items-center gap-4">
+              {/* Language toggle */}
               <button
                 onClick={() => setLang(lang === 'en' ? 'ru' : 'en')}
-                className="text-sm text-gray-600 hover:text-blue-600 font-medium"
+                className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors"
+                aria-label={lang === 'en' ? 'Switch to Russian' : 'Switch to English'}
               >
                 {lang === 'en' ? 'RU' : 'EN'}
               </button>
+
+              {/* Resume button */}
               <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2">
                 <Download size={16} />
                 {t('buttons.resume')}
@@ -232,6 +241,57 @@ const App = () => {
               </div>
               <p className="text-gray-600 mb-4">{t('educationItems.hexletCert.description')}</p>
               <div className="text-gray-500">{t('educationItems.hexletCert.year')}</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section id="projects" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">{t('featuredProjects')}</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Project 1: BrainGames */}
+            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="h-48 bg-gray-200 border-2 border-dashed w-full" />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('projects.brainGames.title')}</h3>
+                <p className="text-gray-600 mb-4">{t('projects.brainGames.description')}</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">JS</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 2: MindScape */}
+            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="h-48 bg-gray-200 border-2 border-dashed w-full" />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('projects.mindScape.title')}</h3>
+                <p className="text-gray-600 mb-4">{t('projects.mindScape.description')}</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">JS</span>
+                  <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">HTML</span>
+                  <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">CSS</span>
+                  <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">LocalStorage</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 3: Code&Spell */}
+            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="h-48 bg-gray-200 border-2 border-dashed w-full" />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('projects.codeAndSpell.title')}</h3>
+                <p className="text-gray-600 mb-4">{t('projects.codeAndSpell.description')}</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">TS</span>
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">React</span>
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Konva</span>
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Monaco</span>
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Laravel</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

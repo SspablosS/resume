@@ -6,7 +6,8 @@
   "nav": {
     "about": "About",
     "skills": "Skills",
-    "education": "Education"
+    "education": "Education",
+    "projects": "Projects"
   },
   "buttons": {
     "contact": "Get in Touch",
@@ -73,6 +74,20 @@
     }
   },
   "featuredProjects": "Featured Projects",
+  "projects": {
+    "brainGames": {
+      "title": "BrainGames",
+      "description": "A collection of five terminal-based games inspired by popular mobile brain-training apps."
+    },
+    "mindScape": {
+      "title": "MindScape",
+      "description": "A browser-based web app for storing and managing personal notes with ease."
+    },
+    "codeAndSpell": {
+      "title": "Code&Spell",
+      "description": "An educational programming simulator set in a magical world, where players learn core programming concepts through interactive visualisation."
+    }
+  },
   "contact": {
     "title": "Let's Work Together",
     "subtitle": "I'm always open to new opportunities and exciting projects. Feel free to reach out if you'd like to collaborate!",
